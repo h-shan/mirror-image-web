@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#chat {
+	height: 89vh;
+	overflow-y: scroll
+}
+
+.message_div {
+	width: 98%;
+	margin: 0;
+	padding: 1%;
+}
+
+.user {
+	float: right;
+	text-align: right;
+	background: rgba(47, 198, 47, 0.1);
+}
+
+.chatbot {
+	float: left;
+	text-align: left;
+	background: rgba(1, 1, 1, 0.1);
+}
+
+.message_div .sender,
+.message_div .time {
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	color: #999;
+}
+
+.message_div .msg {
+	margin: 0;
+	padding-top: 1%;
+}
+
+input[type="text"] {
+    background-color: white;
+    color: #2fc62f;
+	border-bottom: 2px solid rgba(47, 198, 47, 1);
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 87vw;
+    height: 8vh;
+    display: block;
+}
+
+input[type=text]:focus {
+  box-shadow: 0 0 5px rgba(47, 198, 47, 1);
+}
+
+input[type=submit] {
+    background:rgba(47, 198, 47, 0);
+    width: 11vw;
+    height: 10vh;
+    margin: 0 auto;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(47, 198, 47, 1);
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    font-family: 'Slabo 27px', serif;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+input[type=submit]:hover{
+    animation: fade-in 1s ease;
+    background: rgba(47, 198, 47, 1);
+}
