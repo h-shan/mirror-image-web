@@ -1,5 +1,5 @@
 # mirror-image-web
-Web client for Mirror Image Chatbot
+Web client for Mirror Image Chatbot. Main Repo: https://github.com/h-shan/mirror-image
 
 ## Getting Started
 
@@ -38,11 +38,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/h-shan/mirror-image) for details.
+Please read [CONTRIBUTING.md](https://github.com/h-shan/mirror-image/blob/master/CONTRIBUTING.md) for details.
 
 ## Authors
 
-See the list of [contributors](https://github.com/h-shan/mirror-image) who participated in this project.
+See the list of [contributors](https://github.com/h-shan/mirror-image/blob/master/CONTRIBUTORS.md) who participated in this project.
 
 ## License
 
