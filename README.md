@@ -7,7 +7,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Clone the Repo
 * Install the necessary requirements
-* Run
+* On Windows, run
+  ``` python app.py ```
+* Otherwise, run
   ``` FLASK_APP=app.py flask run ```
 
 ### Prerequisites
