@@ -11,6 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
   ``` python app.py ```
 * Otherwise, run
   ``` FLASK_APP=app.py flask run ```
+* Visit ``` 127.0.0.1:5000 ``` on your browser
 
 ### Prerequisites
 
